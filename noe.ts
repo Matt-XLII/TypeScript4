@@ -73,6 +73,10 @@ interface Hungry {
 
 }
 
+function takeAPhotograph(animal: Animal) {
+    console.log(`You took a photograph of ${animal.type}`);
+}
+
 function bark(dog: Dog) {
     console.log(`${dog.type} says woof`);
 }

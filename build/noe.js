@@ -46,6 +46,9 @@ const passerine = new Bird("Passerine", "bird");
 const raven = new Bird("Raven", "bird", "black");
 const thuna = new Fish("Thuna", "fish");
 const shark = new Fish("Shark", "fish");
+function takeAPhotograph(animal) {
+    console.log(`You took a photograph of ${animal.type}`);
+}
 function bark(dog) {
     console.log(`${dog.type} says woof`);
 }
